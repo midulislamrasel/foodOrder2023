@@ -2095,6 +2095,11 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
+y@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/y/-/y-0.3.2.tgz#bd08711d26b034d026a30599a9919a63fe43c3fa"
+  integrity sha512-OJQTQuD3iqJqXzYKs2AgZqQrfPuTOjIFm3jvIc+2SxP6QSB5Ab9Ja9A5mWEDngjaJiEgsHbp2Q2RR/U2pTpTEw==
+
 yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"

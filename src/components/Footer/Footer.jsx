@@ -1,4 +1,11 @@
 import React from "react";
+import { FaPhoneAlt } from "react-icons/fa";
+import { BiSolidMapPin } from "react-icons/bi";
+import { FaRegEnvelope } from "react-icons/fa";
+import { CiTwitter } from "react-icons/ci";
+import { FaFacebook } from "react-icons/fa";
+import { CiYoutube } from "react-icons/ci";
+import { CiLinkedin } from "react-icons/ci";
 
 export default function Footer() {
   return (
@@ -33,27 +40,29 @@ export default function Footer() {
               Contact
             </h4>
             <p className="mb-2">
-              <i className="fa fa-map-marker-alt me-3"></i>123 Street, New York,
-              USA
+              <BiSolidMapPin />
+              Bangladesh, Dhaka-1210
             </p>
             <p className="mb-2">
-              <i className="fa fa-phone-alt me-3"></i>+012 345 67890
+              <FaPhoneAlt />
+              +012 345 67890
             </p>
             <p className="mb-2">
-              <i className="fa fa-envelope me-3"></i>info@example.com
+              <FaRegEnvelope />
+              info@example.com
             </p>
             <div className="d-flex pt-2">
               <a className="btn btn-outline-light btn-social" href="">
-                <i className="fab fa-twitter"></i>
+                <CiTwitter />
               </a>
               <a className="btn btn-outline-light btn-social" href="">
-                <i className="fab fa-facebook-f"></i>
+                <FaFacebook />
               </a>
               <a className="btn btn-outline-light btn-social" href="">
-                <i className="fab fa-youtube"></i>
+                <CiYoutube />
               </a>
               <a className="btn btn-outline-light btn-social" href="">
-                <i className="fab fa-linkedin-in"></i>
+                <CiLinkedin />
               </a>
             </div>
           </div>
