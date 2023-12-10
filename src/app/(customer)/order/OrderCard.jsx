@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function FoodCard() {
+export default function OrderCard() {
   return (
-    <div className="col-lg-6">
-      <div className="d-flex align-items-center">
+    <div className="col-lg-8 bg-white">
+      <div className="d-flex align-items-center px-3 py-2">
         <img
           className="flex-shrink-0 img-fluid rounded"
           src="img/menu-1.jpg"
@@ -16,9 +16,7 @@ export default function FoodCard() {
             <span className="text-primary">$115</span>
           </h5>
           <div>
-          <small className="fst-italic">
-            Ipsum ipsum clita erat amet dolor justo diam
-          </small>
+           <p>Status:  <span>pending</span></p>
           </div>
         </div>
       </div>

@@ -4,13 +4,13 @@ export default function page() {
   return (
     // <!-- Reservation Start -->
     <>
-      <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="video">
+      <div className="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div className="row g-0">
+          <div className="col-md-6">
+            <div className="video">
               <button
                 type="button"
-                class="btn-play"
+                className="btn-play"
                 data-bs-toggle="modal"
                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
                 data-bs-target="#videoModal"
@@ -19,45 +19,45 @@ export default function page() {
               </button>
             </div>
           </div>
-          <div class="col-md-6 bg-dark d-flex align-items-center">
-            <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
-              <h5 class="section-title ff-secondary text-start text-primary fw-normal">
+          <div className="col-md-6 bg-dark d-flex align-items-center">
+            <div className="p-5 wow fadeInUp" data-wow-delay="0.2s">
+              <h5 className="section-title ff-secondary text-start text-primary fw-normal">
                 Reservation
               </h5>
-              <h1 class="text-white mb-4">Book A Table Online</h1>
+              <h1 className="text-white mb-4">Book A Table Online</h1>
               <form>
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <div class="form-floating">
+                <div className="row g-3">
+                  <div className="col-md-6">
+                    <div className="form-floating">
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="name"
                         placeholder="Your Name"
                       />
                       <label for="name">Your Name</label>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="form-floating">
+                  <div className="col-md-6">
+                    <div className="form-floating">
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="email"
                         placeholder="Your Email"
                       />
                       <label for="email">Your Email</label>
                     </div>
                   </div>
-                  <div class="col-md-6">
+                  <div className="col-md-6">
                     <div
-                      class="form-floating date"
+                      className="form-floating date"
                       id="date3"
                       data-target-input="nearest"
                     >
                       <input
                         type="text"
-                        class="form-control datetimepicker-input"
+                        className="form-control datetimepicker-input"
                         id="datetime"
                         placeholder="Date & Time"
                         data-target="#date3"
@@ -66,9 +66,9 @@ export default function page() {
                       <label for="datetime">Date & Time</label>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="form-floating">
-                      <select class="form-select" id="select1">
+                  <div className="col-md-6">
+                    <div className="form-floating">
+                      <select className="form-select" id="select1">
                         <option value="1">People 1</option>
                         <option value="2">People 2</option>
                         <option value="3">People 3</option>
@@ -76,10 +76,10 @@ export default function page() {
                       <label for="select1">No Of People</label>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="form-floating">
+                  <div className="col-12">
+                    <div className="form-floating">
                       <textarea
-                        class="form-control"
+                        className="form-control"
                         placeholder="Special Request"
                         id="message"
                         style={{height: "100px"}}
@@ -87,8 +87,8 @@ export default function page() {
                       <label for="message">Special Request</label>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <button class="btn btn-primary w-100 py-3" type="submit">
+                  <div className="col-12">
+                    <button className="btn btn-primary w-100 py-3" type="submit">
                       Book Now
                     </button>
                   </div>
@@ -100,30 +100,30 @@ export default function page() {
       </div>
 
       <div
-        class="modal fade"
+        className="modal fade"
         id="videoModal"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
-          <div class="modal-content rounded-0">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
+        <div className="modal-dialog">
+          <div className="modal-content rounded-0">
+            <div className="modal-header">
+              <h5 className="modal-title" id="exampleModalLabel">
                 Youtube Video
               </h5>
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               {/* <!-- 16:9 aspect ratio --> */}
-              <div class="ratio ratio-16x9">
+              <div className="ratio ratio-16x9">
                 <iframe
-                  class="embed-responsive-item"
+                  className="embed-responsive-item"
                   src=""
                   id="video"
                   allowfullscreen
