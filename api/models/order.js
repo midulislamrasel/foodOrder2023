@@ -1,1 +1,1 @@
-// item-> item name, photo, price, customerId, customerInfo->address,phone,email
+// item-> item name, qty, status, photo, price, customerId, customerInfo->address,phone,email
