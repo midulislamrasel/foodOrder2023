@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Hero() {
@@ -24,7 +25,7 @@ export default function Hero() {
             </a>
           </div>
           <div className="col-lg-6 text-center text-lg-end overflow-hidden">
-            <img className="img-fluid" src="img/hero.png" alt="" />
+            <Image className="img-fluid" src="img/hero.png" alt="" />
           </div>
         </div>
       </div>

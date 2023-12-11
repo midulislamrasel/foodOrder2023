@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 export default function FoodCard() {
   return (
     <div className="col-lg-6">
       <div className="d-flex align-items-center">
-        <img
+        <Image
           className="flex-shrink-0 img-fluid rounded"
           src="img/menu-1.jpg"
           alt=""
@@ -16,9 +17,9 @@ export default function FoodCard() {
             <span className="text-primary">$115</span>
           </h5>
           <div>
-          <small className="fst-italic">
-            Ipsum ipsum clita erat amet dolor justo diam
-          </small>
+            <small className="fst-italic">
+              Ipsum ipsum clita erat amet dolor justo diam
+            </small>
           </div>
         </div>
       </div>

@@ -1,5 +1,31 @@
+import Hero from "@/components/Hero/Hero";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FaArrowAltCircleUp } from "react-icons/fa";
+import {
+  about_1,
+  about_2,
+  about_3,
+  about_4,
+  hero_Image,
+  menu_1,
+  menu_2,
+  menu_3,
+  menu_4,
+  menu_5,
+  menu_6,
+  menu_7,
+  menu_8,
+  team_1,
+  team_2,
+  team_3,
+  team_4,
+  testimonial_1,
+  testimonial_2,
+  testimonial_3,
+  testimonial_4,
+} from "../../../public/img/image";
 
 export default function page() {
   return (
@@ -27,7 +53,7 @@ export default function page() {
                 </Link>
               </div>
               <div className="col-lg-6 text-center text-lg-end overflow-hidden">
-                <img className="img-fluid" src="img/hero.png" alt="" />
+                <Image className="img-fluid" src={hero_Image} alt="" />
               </div>
             </div>
           </div>
@@ -111,32 +137,40 @@ export default function page() {
             <div className="col-lg-6">
               <div className="row g-3">
                 <div className="col-6 text-start">
-                  <img
+                  <Image
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src="img/about-1.jpg"
+                    // src="img/about-1.jpg"
+                    src={about_1}
+                    alt=""
                   />
                 </div>
                 <div className="col-6 text-start">
-                  <img
+                  <Image
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="img/about-2.jpg"
+                    // src="img/about-2.jpg"
+                    src={about_2}
                     style={{ marginTop: "25%" }}
+                    alt=""
                   />
                 </div>
                 <div className="col-6 text-end">
-                  <img
+                  <Image
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src="img/about-3.jpg"
+                    // src="img/about-3.jpg"
+                    src={about_3}
+                    alt=""
                   />
                 </div>
                 <div className="col-6 text-end">
-                  <img
+                  <Image
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src="img/about-4.jpg"
+                    // src="img/about-4.jpg"
+                    src={about_4}
+                    alt=""
                   />
                 </div>
               </div>
@@ -257,9 +291,10 @@ export default function page() {
                 <div className="row g-4">
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-1.jpg"
+                        // src="img/menu-1.jpg"
+                        src={menu_1}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -276,9 +311,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-2.jpg"
+                        // src="img/menu-2.jpg"
+                        src={menu_2}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -295,9 +331,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-3.jpg"
+                        // src="img/menu-3.jpg"
+                        src={menu_3}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -314,9 +351,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-4.jpg"
+                        // src="img/menu-4.jpg"
+                        src={menu_4}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -333,9 +371,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-5.jpg"
+                        // src="img/menu-5.jpg"
+                        src={menu_5}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -352,9 +391,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-6.jpg"
+                        // src="img/menu-6.jpg"
+                        src={menu_6}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -371,9 +411,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-7.jpg"
+                        // src="img/menu-7.jpg"
+                        src={menu_7}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -390,9 +431,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-8.jpg"
+                        // src="img/menu-8.jpg"
+                        src={menu_8}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -413,9 +455,10 @@ export default function page() {
                 <div className="row g-4">
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-1.jpg"
+                        // src="img/menu-1.jpg"
+                        src={menu_1}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -432,9 +475,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-2.jpg"
+                        // src="img/menu-2.jpg"
+                        src={menu_2}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -451,9 +495,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-3.jpg"
+                        // src="img/menu-3.jpg"
+                        src={menu_3}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -470,9 +515,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-4.jpg"
+                        // src="img/menu-4.jpg"
+                        src={menu_4}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -489,9 +535,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-5.jpg"
+                        // src="img/menu-5.jpg"
+                        src={menu_5}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -508,9 +555,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-6.jpg"
+                        // src="img/menu-6.jpg"
+                        src={menu_6}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -527,9 +575,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-7.jpg"
+                        // src="img/menu-7.jpg"
+                        src={menu_7}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -546,9 +595,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-8.jpg"
+                        // src="img/menu-8.jpg"
+                        src={menu_8}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -569,9 +619,10 @@ export default function page() {
                 <div className="row g-4">
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-1.jpg"
+                        // src="img/menu-1.jpg"
+                        src={menu_1}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -588,9 +639,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-2.jpg"
+                        // src="img/menu-2.jpg"
+                        src={menu_2}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -607,9 +659,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-3.jpg"
+                        // src="img/menu-3.jpg"
+                        src={menu_3}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -626,9 +679,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-4.jpg"
+                        // src="img/menu-4.jpg"
+                        src={menu_4}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -645,9 +699,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-5.jpg"
+                        // src="img/menu-5.jpg"
+                        src={menu_5}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -664,9 +719,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-6.jpg"
+                        // src="img/menu-6.jpg"
+                        src={menu_6}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -683,9 +739,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-7.jpg"
+                        // src="img/menu-7.jpg"
+                        src={menu_7}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -702,9 +759,10 @@ export default function page() {
                   </div>
                   <div className="col-lg-6">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="flex-shrink-0 img-fluid rounded"
-                        src="img/menu-8.jpg"
+                        // src="img/menu-8.jpg"
+                        src={menu_8}
                         alt=""
                         style={{ width: "80px" }}
                       />
@@ -883,7 +941,12 @@ export default function page() {
             >
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    //  src="img/team-1.jpg"
+                    src={team_1}
+                    alt=""
+                  />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
@@ -906,7 +969,12 @@ export default function page() {
             >
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-2.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    //  src="img/team-2.jpg"
+                    src={team_2}
+                    alt=""
+                  />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
@@ -929,7 +997,12 @@ export default function page() {
             >
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-3.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    //  src="img/team-3.jpg"
+                    src={team_3}
+                    alt=""
+                  />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
@@ -952,7 +1025,12 @@ export default function page() {
             >
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-4.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    // src="img/team-4.jpg"
+                    src={team_4}
+                    alt=""
+                  />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
@@ -991,10 +1069,12 @@ export default function page() {
                 stet amet eirmod eos labore diam
               </p>
               <div className="d-flex align-items-center">
-                <img
+                <Image
                   className="img-fluid flex-shrink-0 rounded-circle"
-                  src="img/testimonial-1.jpg"
+                  // src="img/testimonial-1.jpg"
+                  src={testimonial_1}
                   style={{ width: "50px", height: "50px" }}
+                  alt=""
                 />
                 <div className="ps-3">
                   <h5 className="mb-1">Client Name</h5>
@@ -1009,10 +1089,12 @@ export default function page() {
                 stet amet eirmod eos labore diam
               </p>
               <div className="d-flex align-items-center">
-                <img
+                <Image
                   className="img-fluid flex-shrink-0 rounded-circle"
-                  src="img/testimonial-2.jpg"
+                  // src="img/testimonial-2.jpg"
+                  src={testimonial_2}
                   style={{ width: "50px", height: "50px" }}
+                  alt=""
                 />
                 <div className="ps-3">
                   <h5 className="mb-1">Client Name</h5>
@@ -1027,10 +1109,12 @@ export default function page() {
                 stet amet eirmod eos labore diam
               </p>
               <div className="d-flex align-items-center">
-                <img
+                <Image
                   className="img-fluid flex-shrink-0 rounded-circle"
-                  src="img/testimonial-3.jpg"
+                  // src="img/testimonial-3.jpg"
+                  src={testimonial_3}
                   style={{ width: "50px", height: "50px" }}
+                  alt=""
                 />
                 <div className="ps-3">
                   <h5 className="mb-1">Client Name</h5>
@@ -1045,10 +1129,12 @@ export default function page() {
                 stet amet eirmod eos labore diam
               </p>
               <div className="d-flex align-items-center">
-                <img
+                <Image
                   className="img-fluid flex-shrink-0 rounded-circle"
-                  src="img/testimonial-4.jpg"
+                  // src="img/testimonial-4.jpg"
+                  src={testimonial_4}
                   style={{ width: "50px", height: "50px" }}
+                  alt=""
                 />
                 <div className="ps-3">
                   <h5 className="mb-1">Client Name</h5>
@@ -1063,7 +1149,8 @@ export default function page() {
 
       {/* <!-- Back to Top --> */}
       <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top">
-        <i className="bi bi-arrow-up"></i>
+        {/* <i className="bi bi-arrow-up"></i> */}
+        <FaArrowAltCircleUp />
       </a>
     </div>
   );

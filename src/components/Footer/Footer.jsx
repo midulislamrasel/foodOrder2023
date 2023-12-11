@@ -2,10 +2,10 @@ import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BiSolidMapPin } from "react-icons/bi";
 import { FaRegEnvelope } from "react-icons/fa";
-import { CiTwitter } from "react-icons/ci";
-import { FaFacebook } from "react-icons/fa";
-import { CiYoutube } from "react-icons/ci";
-import { CiLinkedin } from "react-icons/ci";
+import { FaTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { RiFacebookFill } from "react-icons/ri";
 
 export default function Footer() {
   return (
@@ -40,29 +40,43 @@ export default function Footer() {
               Contact
             </h4>
             <p className="mb-2">
-              <BiSolidMapPin />
+              <i className="fs-4 me-3">
+                <BiSolidMapPin />
+              </i>
               Bangladesh, Dhaka-1210
             </p>
             <p className="mb-2">
-              <FaPhoneAlt />
-              +012 345 67890
+              <i className="fs-5 me-3">
+                <FaPhoneAlt />
+              </i>
+              +88017584692
             </p>
             <p className="mb-2">
-              <FaRegEnvelope />
-              info@example.com
+              <i className="fs-4 me-3">
+                <FaRegEnvelope />
+              </i>
+              foodorder@gmail.com
             </p>
             <div className="d-flex pt-2">
               <a className="btn btn-outline-light btn-social" href="">
-                <CiTwitter />
+                <i className="fs-4 mb-1">
+                  <FaTwitter />
+                </i>
               </a>
               <a className="btn btn-outline-light btn-social" href="">
-                <FaFacebook />
+                <i className="fs-3 mb-1">
+                  <RiFacebookFill />
+                </i>
               </a>
               <a className="btn btn-outline-light btn-social" href="">
-                <CiYoutube />
+                <i className="fs-3 mb-1">
+                  <FaYoutube />
+                </i>
               </a>
               <a className="btn btn-outline-light btn-social" href="">
-                <CiLinkedin />
+                <i className="fs-4 mb-1">
+                  <FaLinkedinIn />
+                </i>
               </a>
             </div>
           </div>
@@ -70,10 +84,10 @@ export default function Footer() {
             <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">
               Opening
             </h4>
-            <h5 className="text-light fw-normal">Monday - Saturday</h5>
-            <p>09AM - 09PM</p>
-            <h5 className="text-light fw-normal">Sunday</h5>
-            <p>10AM - 08PM</p>
+            <h5 className="text-light fw-normal">Friday</h5>
+            <p>10AM - 11PM</p>
+            <h5 className="text-light fw-normal">Saturday to Tursday</h5>
+            <p>9AM - 08PM</p>
           </div>
           <div className="col-lg-3 col-md-6">
             <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">
@@ -107,7 +121,7 @@ export default function Footer() {
               <a className="border-bottom" href="#">
                 food
               </a>
-              , All Right Reserved. Designed By{" "}
+              , All Right Reserved. Designed By {"foodOrder "}
             </div>
             <div className="col-md-6 text-center text-md-end">
               <div className="footer-menu">
