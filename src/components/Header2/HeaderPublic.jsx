@@ -11,20 +11,26 @@ export default function HeaderPublic() {
   };
 
   const TitleText =
-  pathname === "/our-menu" ? "Our Menu" :
-  pathname === "/about-us" ? "About Us" :
-  pathname === "/contact-us" ? "Contact Us" :
-  pathname === "/book-a-table" ? "Booking" :
-  pathname === "/our-services" ? "Our Services" :
-  pathname === "/product-list" ? "Product Store Online" :
-  null;
-  
+    pathname === "/our-menu"
+      ? "Our Menu"
+      : pathname === "/about-us"
+      ? "About Us"
+      : pathname === "/contact-us"
+      ? "Contact Us"
+      : pathname === "/book-a-table"
+      ? "Booking"
+      : pathname === "/our-services"
+      ? "Our Services"
+      : pathname === "/product-list"
+      ? "Product Store Online"
+      : null;
+
   return (
     <div className="container-xxl position-relative p-0">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
         <Link href="/" className="navbar-brand p-0">
           <h1 className="text-primary m-0">
-            <i className="fa fa-utensils me-3"></i>Restoran
+            <i className="fa fa-utensils me-3"></i>BUBT SDP-3
           </h1>
         </Link>
         <button
@@ -72,7 +78,10 @@ export default function HeaderPublic() {
               <li className="breadcrumb-item">
                 <Link href="/">Home</Link>
               </li>
-              <li className="breadcrumb-item text-white active" aria-current="page">
+              <li
+                className="breadcrumb-item text-white active"
+                aria-current="page"
+              >
                 {TitleText}
               </li>
             </ol>
