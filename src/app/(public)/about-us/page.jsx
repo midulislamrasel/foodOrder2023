@@ -1,5 +1,15 @@
 import Image from "next/image";
 import React from "react";
+import {
+  about_1,
+  about_2,
+  about_3,
+  about_4,
+  team_1,
+  team_2,
+  team_3,
+  team_4,
+} from "../../../../public/img/image";
 
 export default function page() {
   return (
@@ -13,7 +23,8 @@ export default function page() {
                   <Image
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src="img/about-1.jpg"
+                    // src="img/about-1.jpg"
+                    src={about_1}
                     alt=""
                   />
                 </div>
@@ -21,7 +32,8 @@ export default function page() {
                   <Image
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="img/about-2.jpg"
+                    // src="img/about-2.jpg"
+                    src={about_2}
                     style={{ marginTop: "25%" }}
                     alt=""
                   />
@@ -30,7 +42,8 @@ export default function page() {
                   <Image
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src="img/about-3.jpg"
+                    // src="img/about-3.jpg"
+                    src={about_3}
                     alt=""
                   />
                 </div>
@@ -38,7 +51,8 @@ export default function page() {
                   <Image
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src="img/about-4.jpg"
+                    // src="img/about-4.jpg"
+                    src={about_4}
                     alt=""
                   />
                 </div>
@@ -117,7 +131,12 @@ export default function page() {
             >
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    //   src="img/team-1.jpg"
+                    src={team_1}
+                    alt=""
+                  />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
@@ -140,7 +159,12 @@ export default function page() {
             >
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-2.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    //   src="img/team-2.jpg"
+                    src={team_2}
+                    alt=""
+                  />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
@@ -163,7 +187,12 @@ export default function page() {
             >
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-3.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    //   src="img/team-3.jpg"
+                    src={team_3}
+                    alt=""
+                  />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
@@ -186,7 +215,12 @@ export default function page() {
             >
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-4.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    //    src="img/team-4.jpg"
+                    src={team_4}
+                    alt=""
+                  />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
