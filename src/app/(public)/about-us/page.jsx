@@ -1,5 +1,8 @@
 import Image from "next/image";
 import React from "react";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import {
   about_1,
   about_2,
@@ -134,6 +137,7 @@ export default function page() {
                   <Image
                     className="img-fluid"
                     //   src="img/team-1.jpg"
+
                     src={team_1}
                     alt=""
                   />
@@ -142,13 +146,13 @@ export default function page() {
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-facebook-f"></i>
+                    <FaFacebookF />
                   </a>
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-twitter"></i>
+                    <FaTwitter />
                   </a>
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-instagram"></i>
+                    <FaInstagram />
                   </a>
                 </div>
               </div>
@@ -170,13 +174,13 @@ export default function page() {
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-facebook-f"></i>
+                    <FaFacebookF />
                   </a>
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-twitter"></i>
+                    <FaTwitter />
                   </a>
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-instagram"></i>
+                    <FaInstagram />
                   </a>
                 </div>
               </div>
@@ -198,13 +202,13 @@ export default function page() {
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-facebook-f"></i>
+                    <FaFacebookF />
                   </a>
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-twitter"></i>
+                    <FaTwitter />
                   </a>
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-instagram"></i>
+                    <FaInstagram />
                   </a>
                 </div>
               </div>
@@ -226,13 +230,13 @@ export default function page() {
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-facebook-f"></i>
+                    <FaFacebookF />
                   </a>
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-twitter"></i>
+                    <FaTwitter />
                   </a>
                   <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-instagram"></i>
+                    <FaInstagram />
                   </a>
                 </div>
               </div>

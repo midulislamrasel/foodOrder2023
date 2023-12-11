@@ -545,7 +545,7 @@ export default function page() {
                       <div className="w-100 d-flex flex-column text-start ps-4">
                         <h5 className="d-flex justify-content-between border-bottom pb-2">
                           <span>Chicken Burger</span>
-                          <span className="text-primary">$115</span>
+                          <span className="text-primary">$515</span>
                         </h5>
                         <small className="fst-italic">
                           Ipsum ipsum clita erat amet dolor justo diam
@@ -565,7 +565,7 @@ export default function page() {
                       <div className="w-100 d-flex flex-column text-start ps-4">
                         <h5 className="d-flex justify-content-between border-bottom pb-2">
                           <span>Chicken Burger</span>
-                          <span className="text-primary">$115</span>
+                          <span className="text-primary">$515</span>
                         </h5>
                         <small className="fst-italic">
                           Ipsum ipsum clita erat amet dolor justo diam
