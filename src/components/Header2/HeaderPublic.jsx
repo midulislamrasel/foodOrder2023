@@ -23,6 +23,10 @@ export default function HeaderPublic() {
       ? "Our Services"
       : pathname === "/product-list"
       ? "Product Store Online"
+      : pathname === "/terms-and-condition"
+      ? "Our terms and condition"
+      : pathname === "/privacy-policy"
+      ? "Our policy"
       : null;
 
   return (

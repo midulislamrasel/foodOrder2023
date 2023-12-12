@@ -1,4 +1,6 @@
 /*
+food:
+
 Paratha
 Kachchi biryani
 Bhuna khichuri
@@ -8,5 +10,13 @@ Rice with curry, vorta, vaji, and daal
 Grilled chicken
 Sabzi
 Sweet yogurt
+
+*/ 
+
+/*
+Menu:
+
+Paratha
+Kachchi biryani
 
 */ 

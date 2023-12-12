@@ -1,8 +1,5 @@
-import Hero from "@/components/Hero/Hero";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import { FaArrowAltCircleUp } from "react-icons/fa";
 import {
   about_1,
   about_2,
@@ -29,9 +26,9 @@ import {
 
 export default function page() {
   return (
-    <div className="container-xxl bg-white p-0">
-      <div className="container-xxl position-relative p-0">
-        <div className="container-xxl py-5 bg-dark hero-header mb-5">
+    <div className="bg-white p-0">
+      <div className="position-relative p-0">
+        <div className="py-5 bg-dark hero-header mb-5">
           <div className="container my-5 py-5">
             <div className="row align-items-center g-5">
               <div className="col-lg-6 text-center text-lg-start">
@@ -1146,12 +1143,6 @@ export default function page() {
         </div>
       </div>
       {/* <!-- Testimonial End --> */}
-
-      {/* <!-- Back to Top --> */}
-      <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top">
-        {/* <i className="bi bi-arrow-up"></i> */}
-        <FaArrowAltCircleUp />
-      </a>
     </div>
   );
 }
