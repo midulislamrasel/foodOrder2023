@@ -22,6 +22,12 @@ import testimonial_1 from "../img/testimonial-1.jpg";
 import testimonial_2 from "../img/testimonial-2.jpg";
 import testimonial_3 from "../img/testimonial-3.jpg";
 import testimonial_4 from "../img/testimonial-4.jpg";
+
+import rayhan from "../img/rayhan.png";
+import samad from "../img/samad.png";
+import midul from "../img/midul.png";
+import yasin from "../img/yasin.png";
+import siam from "../img/siam.png";
 export {
   hero_Image,
   about_1,
@@ -44,4 +50,9 @@ export {
   testimonial_2,
   testimonial_3,
   testimonial_4,
+  rayhan,
+  midul,
+  yasin,
+  samad,
+  siam,
 };

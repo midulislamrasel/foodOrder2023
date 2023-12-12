@@ -13,6 +13,7 @@ import {
   team_3,
   team_4,
 } from "../../../../public/img/image";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -67,7 +68,7 @@ export default function page() {
               </h5>
               <h1 className="mb-4">
                 Welcome to <i className="fa fa-utensils text-primary me-2"></i>
-                Restoran
+                BUBT-SDP
               </h1>
               <p className="mb-4">
                 Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
@@ -109,9 +110,9 @@ export default function page() {
                   </div>
                 </div>
               </div>
-              <a className="btn btn-primary py-3 px-5 mt-2" href="">
+              <Link className="btn btn-primary py-3 px-5 mt-2" href="">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -145,15 +146,15 @@ export default function page() {
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaFacebookF />
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaTwitter />
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaInstagram />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -173,15 +174,15 @@ export default function page() {
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaFacebookF />
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaTwitter />
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaInstagram />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -201,15 +202,15 @@ export default function page() {
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaFacebookF />
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaTwitter />
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaInstagram />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -229,15 +230,15 @@ export default function page() {
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaFacebookF />
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaTwitter />
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
                     <FaInstagram />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

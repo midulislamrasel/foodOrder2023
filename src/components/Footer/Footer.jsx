@@ -6,6 +6,7 @@ import { FaTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { RiFacebookFill } from "react-icons/ri";
+import { FaAngleRight } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Footer() {
@@ -22,20 +23,35 @@ export default function Footer() {
                 Company
               </h4>
               <Link className="btn btn-link" href="">
+                <span className=" me-3">
+                  <FaAngleRight />
+                </span>
                 About Us
               </Link>
               <Link className="btn btn-link" href="">
+                <span className=" me-3">
+                  <FaAngleRight />
+                </span>
                 Contact Us
               </Link>
-              <a className="btn btn-link" href="">
+              <Link className="btn btn-link" href="">
+                <span className=" me-3">
+                  <FaAngleRight />
+                </span>
                 Reservation
-              </a>
+              </Link>
               <Link className="btn btn-link" href="/privacy-policy">
+                <span className=" me-3">
+                  <FaAngleRight />
+                </span>
                 Privacy Policy
               </Link>
-              <a className="btn btn-link" href="/terms-and-condition">
+              <Link className="btn btn-link" href="/terms-and-condition">
+                <span className=" me-3">
+                  <FaAngleRight />
+                </span>
                 Terms & Condition
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-6">
               <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">
@@ -57,29 +73,32 @@ export default function Footer() {
                 <i className="fs-4 me-3">
                   <FaRegEnvelope />
                 </i>
-                foodorder@gmail.com
+                bubtsdp@gmail.com
               </p>
               <div className="d-flex pt-2">
-                <a className="btn btn-outline-light btn-social" href="">
+                <Link className="btn btn-outline-light btn-social me-3" href="">
                   <i className="fs-4 mb-1">
                     <FaTwitter />
                   </i>
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
+                </Link>
+                <Link className="btn btn-outline-light btn-social me-3" href="">
                   <i className="fs-3 mb-1">
                     <RiFacebookFill />
                   </i>
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
-                  <i className="fs-3 mb-1">
+                </Link>
+                <Link
+                  className="btn btn-outline-light btn-social me-3 "
+                  href=""
+                >
+                  <i className="fs-3 mb-1 ">
                     <FaYoutube />
                   </i>
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
+                </Link>
+                <Link className="btn btn-outline-light btn-social me-3" href="">
                   <i className="fs-4 mb-1">
                     <FaLinkedinIn />
                   </i>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -120,17 +139,17 @@ export default function Footer() {
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 &copy;{" "}
-                <a className="border-bottom" href="#">
+                <Link className="border-bottom" href="#">
                   food
-                </a>
+                </Link>
                 , All Right Reserved. Designed By {"foodOrder "}
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <div className="footer-menu">
-                  <a href="">Home</a>
-                  <a href="">Cookies</a>
-                  <a href="">Help</a>
-                  <a href="">FQAs</a>
+                  <Link href="">Home</Link>
+                  <Link href="">Cookies</Link>
+                  <Link href="">Help</Link>
+                  <Link href="">FQAs</Link>
                 </div>
               </div>
             </div>

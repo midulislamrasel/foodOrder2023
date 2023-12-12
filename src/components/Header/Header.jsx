@@ -15,7 +15,7 @@ export default function Header() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
       <Link href="/" className="navbar-brand p-0">
         <h1 className="text-primary m-0">
-          <i className="fa fa-utensils me-3"></i>BUBT SDP-3
+          <i className="fa fa-utensils me-3"></i>BUBT-SDP
         </h1>
       </Link>
       <button

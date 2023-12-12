@@ -1,5 +1,16 @@
+import Hero from "@/components/Hero/Hero";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
+import {
+  FaCartPlus,
+  FaHeadphones,
+  FaUtensils,
+  FaUser,
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+} from "react-icons/fa";
 import {
   about_1,
   about_2,
@@ -14,6 +25,10 @@ import {
   menu_6,
   menu_7,
   menu_8,
+  midul,
+  rayhan,
+  samad,
+  siam,
   team_1,
   team_2,
   team_3,
@@ -22,13 +37,14 @@ import {
   testimonial_2,
   testimonial_3,
   testimonial_4,
+  yasin,
 } from "../../../public/img/image";
 
 export default function page() {
   return (
-    <div className="bg-white p-0">
-      <div className="position-relative p-0">
-        <div className="py-5 bg-dark hero-header mb-5">
+    <div className="container-xxl bg-white p-0">
+      <div className="container-xxl position-relative p-0">
+        <div className="container-xxl py-5 bg-dark hero-header mb-5">
           <div className="container my-5 py-5">
             <div className="row align-items-center g-5">
               <div className="col-lg-6 text-center text-lg-start">
@@ -68,11 +84,14 @@ export default function page() {
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
-                  <i className="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                  <i className=" text-primary mb-4 fs-1">
+                    <FaCartPlus />
+                  </i>
                   <h5>Master Chefs</h5>
                   <p>
-                    Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                    amet diam
+                    Master chefs are culinary virtuosos, crafting exquisite
+                    dishes with precision and creativity, elevating food to an
+                    art form.
                   </p>
                 </div>
               </div>
@@ -83,11 +102,14 @@ export default function page() {
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
-                  <i className="fa fa-3x fa-utensils text-primary mb-4"></i>
+                  <i className=" text-primary mb-4 fs-1">
+                    <FaHeadphones />
+                  </i>
                   <h5>Quality Food</h5>
                   <p>
-                    Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                    amet diam
+                    Quality food is a harmonious blend of fresh, premium
+                    ingredients, expertly prepared to delight the palate and
+                    nourish the body.
                   </p>
                 </div>
               </div>
@@ -98,11 +120,14 @@ export default function page() {
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
-                  <i className="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                  <i className=" text-primary mb-4 fs-1">
+                    <FaUtensils />
+                  </i>
                   <h5>Online Order</h5>
                   <p>
-                    Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                    amet diam
+                    Online orders provide convenient, hassle-free shopping. With
+                    a few clicks, customers access a vast selection and doorstep
+                    delivery, enhancing accessibility.
                   </p>
                 </div>
               </div>
@@ -113,11 +138,14 @@ export default function page() {
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
-                  <i className="fa fa-3x fa-headset text-primary mb-4"></i>
+                  <i className=" text-primary mb-4 fs-1">
+                    <FaUser />
+                  </i>
                   <h5>24/7 Service</h5>
                   <p>
-                    Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                    amet diam
+                    24/7 service ensures continuous support and assistance,
+                    meeting customer needs around the clock with unwavering
+                    reliability and efficiency.
                   </p>
                 </div>
               </div>
@@ -178,17 +206,15 @@ export default function page() {
               </h5>
               <h1 className="mb-4">
                 Welcome to <i className="fa fa-utensils text-primary me-2"></i>
-                Restoran
+                BUBT-SDP
               </h1>
               <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet
-                lorem sit.
+                Welcome to our restaurant! Enjoy a streamlined dining experience
+                with our efficient 50-food order service.
               </p>
               <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+                Explore a variety of flavors and effortlessly place your order
+                for a delightful meal.
               </p>
               <div className="row g-4 mb-4">
                 <div className="col-sm-6">
@@ -220,9 +246,9 @@ export default function page() {
                   </div>
                 </div>
               </div>
-              <a className="btn btn-primary py-3 px-5 mt-2" href="">
+              <Link className="btn btn-primary py-3 px-5 mt-2" href="">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -244,7 +270,7 @@ export default function page() {
           >
             <ul className="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
               <li className="nav-item">
-                <a
+                <Link
                   className="d-flex align-items-center text-start mx-3 ms-0 pb-3 active"
                   data-bs-toggle="pill"
                   href="#tab-1"
@@ -254,10 +280,10 @@ export default function page() {
                     <small className="text-body">Popular</small>
                     <h6 className="mt-n1 mb-0">Breakfast</h6>
                   </div>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="d-flex align-items-center text-start mx-3 pb-3"
                   data-bs-toggle="pill"
                   href="#tab-2"
@@ -267,10 +293,10 @@ export default function page() {
                     <small className="text-body">Special</small>
                     <h6 className="mt-n1 mb-0">Launch</h6>
                   </div>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="d-flex align-items-center text-start mx-3 me-0 pb-3"
                   data-bs-toggle="pill"
                   href="#tab-3"
@@ -280,7 +306,7 @@ export default function page() {
                     <small className="text-body">Lovely</small>
                     <h6 className="mt-n1 mb-0">Dinner</h6>
                   </div>
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="tab-content">
@@ -941,22 +967,22 @@ export default function page() {
                   <Image
                     className="img-fluid"
                     //  src="img/team-1.jpg"
-                    src={team_1}
+                    src={rayhan}
                     alt=""
                   />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Kazi Rayhan</h5>
+                <small>Chief cook </small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-instagram"></i>
-                  </a>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaFacebookF />
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaTwitter />
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaInstagram />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -969,22 +995,22 @@ export default function page() {
                   <Image
                     className="img-fluid"
                     //  src="img/team-2.jpg"
-                    src={team_2}
+                    src={midul}
                     alt=""
                   />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Md Midul Islam</h5>
+                <small>second cook</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-instagram"></i>
-                  </a>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaFacebookF />
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaTwitter />
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaInstagram />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -997,22 +1023,22 @@ export default function page() {
                   <Image
                     className="img-fluid"
                     //  src="img/team-3.jpg"
-                    src={team_3}
+                    src={samad}
                     alt=""
                   />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Samad Hossain</h5>
+                <small>second cook</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-instagram"></i>
-                  </a>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaHeadphones />
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaTwitter />
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaInstagram />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1025,22 +1051,52 @@ export default function page() {
                   <Image
                     className="img-fluid"
                     // src="img/team-4.jpg"
-                    src={team_4}
+                    src={yasin}
                     alt=""
                   />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Yasin Hossain</h5>
+                <small>chief chef</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="">
-                    <i className="fab fa-instagram"></i>
-                  </a>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaFacebookF />
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaTwitter />
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaInstagram />
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* Siam */}
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.7s"
+            >
+              <div className="team-item text-center rounded overflow-hidden">
+                <div className="rounded-circle overflow-hidden m-4">
+                  <Image
+                    className="img-fluid"
+                    // src="img/team-4.jpg"
+                    src={siam}
+                    alt=""
+                  />
+                </div>
+                <h5 className="mb-0">Md Siam Hossain</h5>
+                <small>Chief cook</small>
+                <div className="d-flex justify-content-center mt-3">
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaFacebookF />
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaTwitter />
+                  </Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="">
+                    <FaInstagram />
+                  </Link>
                 </div>
               </div>
             </div>

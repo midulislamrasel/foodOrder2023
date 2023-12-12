@@ -19,7 +19,7 @@ export default function page() {
                 </h5>
                 <p>
                   <i className="fa fa-envelope-open text-primary "></i>
-                  foodbook@example.com
+                  bubtsdp@example.com
                 </p>
               </div>
               <div className="col-md-4">
@@ -28,7 +28,7 @@ export default function page() {
                 </h5>
                 <p>
                   <i className="fa fa-envelope-open text-primary "></i>
-                  foodinfo@example.com
+                  bubtsdp@example.com
                 </p>
               </div>
               <div className="col-md-4">
@@ -37,7 +37,7 @@ export default function page() {
                 </h5>
                 <p>
                   <i className="fa fa-envelope-open text-primary "></i>
-                  foodorder@example.com
+                  bubtspd@example.com
                 </p>
               </div>
             </div>
