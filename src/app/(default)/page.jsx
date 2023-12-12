@@ -125,9 +125,8 @@ export default function page() {
                   </i>
                   <h5>Online Order</h5>
                   <p>
-                    Online orders provide convenient, hassle-free shopping. With
-                    a few clicks, customers access a vast selection and doorstep
-                    delivery, enhancing accessibility.
+                    Online orders provide convenient,hassle-free shopping.With a
+                    few clicks, customers access a vast selection and doorstep
                   </p>
                 </div>
               </div>
@@ -145,7 +144,6 @@ export default function page() {
                   <p>
                     24/7 service ensures continuous support and assistance,
                     meeting customer needs around the clock with unwavering
-                    reliability and efficiency.
                   </p>
                 </div>
               </div>
