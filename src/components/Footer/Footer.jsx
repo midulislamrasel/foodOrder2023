@@ -156,6 +156,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
       {/* <!-- Back to Top --> */}
       <button className="btn btn-lg btn-primary btn-lg-square back-to-top">
         <FaArrowUp />
