@@ -141,12 +141,12 @@ export default function Footer() {
                 <Link className="border-bottom" href="#">
                   food
                 </Link>
-                , All Right Reserved. Designed By {"foodOrder "}
+                , All Right Reserved. Designed By {"BUBT-SDP "}
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <div className="footer-menu">
                   <Link href="">Home</Link>
-                  <Link href="">Cookies</Link>
+                  {/* <Link href="">Cookies</Link> */}
                   <Link href="">Help</Link>
                   <Link href="">FQAs</Link>
                 </div>
