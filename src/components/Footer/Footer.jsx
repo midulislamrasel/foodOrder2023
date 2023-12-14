@@ -8,7 +8,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { RiFacebookFill } from "react-icons/ri";
 import { FaAngleRight } from "react-icons/fa";
 import Link from "next/link";
-
 export default function Footer() {
   return (
     <>
@@ -158,6 +157,9 @@ export default function Footer() {
       </div>
 
       {/* <!-- Back to Top --> */}
+
+      {/* <AutoPlay /> */}
+
       <button className="btn btn-lg btn-primary btn-lg-square back-to-top">
         <FaArrowUp />
       </button>

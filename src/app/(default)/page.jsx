@@ -54,9 +54,8 @@ export default function page() {
                   Delicious Meal
                 </h1>
                 <p className="text-white animated slideInLeft mb-4 pb-2">
-                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                  Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                  sed stet lorem sit clita duo justo magna dolore erat amet
+                  Offering a diverse menu and swift service that turns every
+                  meal into a culinary delight. Order now for delicious food!"
                 </p>
                 <Link
                   href="/book-a-table"
@@ -73,7 +72,6 @@ export default function page() {
         </div>
       </div>
       {/* <!-- Navbar & Hero End --> */}
-
       {/* <!-- Service Start --> */}
       <div className="container-xxl py-5">
         <div className="container">
@@ -152,7 +150,6 @@ export default function page() {
         </div>
       </div>
       {/* <!-- Service End --> */}
-
       {/* <!-- About Start --> */}
       <div className="container-xxl py-5">
         <div className="container">
@@ -252,7 +249,6 @@ export default function page() {
         </div>
       </div>
       {/* <!-- About End --> */}
-
       {/* <!-- Menu Start --> */}
       <div className="container-xxl py-5">
         <div className="container">
@@ -805,7 +801,6 @@ export default function page() {
         </div>
       </div>
       {/* <!-- Menu End --> */}
-
       {/* <!-- Reservation Start --> */}
       <div
         className="container-xxl py-5 px-0 wow fadeInUp"
@@ -907,7 +902,6 @@ export default function page() {
           </div>
         </div>
       </div>
-
       <div
         className="modal fade"
         id="videoModal"
@@ -945,8 +939,8 @@ export default function page() {
         </div>
       </div>
       {/* <!-- Reservation Start --> */}
-
       {/* <!-- Team Start --> */}
+
       <div className="container-xxl pt-5 pb-3">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -957,7 +951,7 @@ export default function page() {
           </div>
           <div className="row g-4">
             <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.1s"
             >
               <div className="team-item text-center rounded overflow-hidden">
@@ -985,7 +979,7 @@ export default function page() {
               </div>
             </div>
             <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.3s"
             >
               <div className="team-item text-center rounded overflow-hidden">
@@ -1013,7 +1007,7 @@ export default function page() {
               </div>
             </div>
             <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.5s"
             >
               <div className="team-item text-center rounded overflow-hidden">
@@ -1041,7 +1035,7 @@ export default function page() {
               </div>
             </div>
             <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.7s"
             >
               <div className="team-item text-center rounded overflow-hidden">
@@ -1069,9 +1063,8 @@ export default function page() {
               </div>
             </div>
 
-            {/* Siam */}
             <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.7s"
             >
               <div className="team-item text-center rounded overflow-hidden">
@@ -1101,8 +1094,8 @@ export default function page() {
           </div>
         </div>
       </div>
-      {/* <!-- Team End --> */}
 
+      {/* <!-- Team End --> */}
       {/* <!-- Testimonial Start --> */}
       <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container">
@@ -1116,8 +1109,9 @@ export default function page() {
             <div className="testimonial-item bg-transparent border rounded p-4">
               <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
               <p>
-                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
-                stet amet eirmod eos labore diam
+                Seamless transactions, timely deliveries—this food ordering
+                system exceeded our expectations. A must for busy individuals
+                seeking convenience.
               </p>
               <div className="d-flex align-items-center">
                 <Image
@@ -1128,16 +1122,17 @@ export default function page() {
                   alt=""
                 />
                 <div className="ps-3">
-                  <h5 className="mb-1">Client Name</h5>
-                  <small>Profession</small>
+                  <h5 className="mb-1">Sadiya Akther</h5>
+                  <small>clients</small>
                 </div>
               </div>
             </div>
             <div className="testimonial-item bg-transparent border rounded p-4">
               <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
               <p>
-                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
-                stet amet eirmod eos labore diam
+                ncredible variety, simple interface—our customers love the menu
+                options and we appreciate the smooth order management. Top-notch
+                service
               </p>
               <div className="d-flex align-items-center">
                 <Image
@@ -1148,16 +1143,17 @@ export default function page() {
                   alt=""
                 />
                 <div className="ps-3">
-                  <h5 className="mb-1">Client Name</h5>
-                  <small>Profession</small>
+                  <h5 className="mb-1">Rakib </h5>
+                  <small>clients</small>
                 </div>
               </div>
             </div>
             <div className="testimonial-item bg-transparent border rounded p-4">
               <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
               <p>
-                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
-                stet amet eirmod eos labore diam
+                Boosted our sales, minimized errors—this system is a
+                game-changer. Efficient, reliable, and loved by both our team
+                and customers
               </p>
               <div className="d-flex align-items-center">
                 <Image
@@ -1168,16 +1164,17 @@ export default function page() {
                   alt=""
                 />
                 <div className="ps-3">
-                  <h5 className="mb-1">Client Name</h5>
-                  <small>Profession</small>
+                  <h5 className="mb-1">Rohan Ahammed</h5>
+                  <small>clients</small>
                 </div>
               </div>
             </div>
             <div className="testimonial-item bg-transparent border rounded p-4">
               <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
               <p>
-                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
-                stet amet eirmod eos labore diam
+                From order to delivery, flawless execution—this food ordering
+                system has significantly improved our service. A reliable choice
+                for any restaurant!
               </p>
               <div className="d-flex align-items-center">
                 <Image
@@ -1188,8 +1185,8 @@ export default function page() {
                   alt=""
                 />
                 <div className="ps-3">
-                  <h5 className="mb-1">Client Name</h5>
-                  <small>Profession</small>
+                  <h5 className="mb-1">Piyasha</h5>
+                  <small>clients</small>
                 </div>
               </div>
             </div>
