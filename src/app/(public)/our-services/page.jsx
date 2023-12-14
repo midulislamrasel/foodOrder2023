@@ -20,8 +20,8 @@ export default function page() {
                 </i>
                 <h5>Master Chefs</h5>
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                  Master chefs are culinary virtuosos, crafting exquisite dishes
+                  with precision and creativity, elevating food to an art form.
                 </p>
               </div>
             </div>
@@ -34,8 +34,9 @@ export default function page() {
                 </i>
                 <h5>Quality Food</h5>
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                  Quality food is a harmonious blend of fresh, premium
+                  ingredients, expertly prepared to delight the palate and
+                  nourish the body.
                 </p>
               </div>
             </div>
@@ -48,8 +49,8 @@ export default function page() {
                 </i>
                 <h5>Online Order</h5>
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                  Online orders provide convenient,hassle-free shopping.With a
+                  few clicks, customers access a vast selection and doorstep
                 </p>
               </div>
             </div>
@@ -62,8 +63,8 @@ export default function page() {
                 </i>
                 <h5>24/7 Service</h5>
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                  24/7 service ensures continuous support and assistance,
+                  meeting customer needs around the clock with unwavering
                 </p>
               </div>
             </div>
