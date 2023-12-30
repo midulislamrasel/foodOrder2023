@@ -966,7 +966,10 @@ export default function page() {
                 <h5 className="mb-0">Kazi Rayhan</h5>
                 <small>Chief cook </small>
                 <div className="d-flex justify-content-center mt-3">
-                  <Link className="btn btn-square btn-primary mx-1" href="">
+                  <Link
+                    className="btn btn-square btn-primary mx-1"
+                    href="https://github.com/midulislamrasel"
+                  >
                     <FaFacebookF />
                   </Link>
                   <Link className="btn btn-square btn-primary mx-1" href="">
